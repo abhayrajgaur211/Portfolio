@@ -27,7 +27,7 @@ async function start() {
       console.log("MongoDB connected");
     }
 
-    app.listen(PORT, () => console.log(`API running on http://localhost:${PORT}`));
+    app.listen(PORT, () => console.log(`API running on https://portfolio-bbk1.onrender.com:${PORT}`));
   } catch (error) {
     console.error("Startup error:", error);
     process.exit(1);

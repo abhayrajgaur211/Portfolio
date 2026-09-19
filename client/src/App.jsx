@@ -325,7 +325,7 @@ function Contact() {
     e.preventDefault();
     setStatus("loading");
     try {
-      const base = import.meta.env.VITE_API_URL || "http://localhost:5000";
+      const base = import.meta.env.VITE_API_URL || "https://portfolio-bbk1.onrender.com";
       const res = await fetch(`${base}/api/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

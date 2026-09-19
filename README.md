@@ -35,8 +35,8 @@ npm install
 npm run dev
 ```
 
-Frontend runs on the Vite port shown in the terminal, normally `http://localhost:5173`.
-Backend runs on `http://localhost:5000`.
+Frontend runs on the Vite port shown in the terminal, normally `https://portfolio-bbk1.onrender.com`.
+Backend runs on `https://portfolio-bbk1.onrender.com`.
 
 ## Environment
 
@@ -45,13 +45,13 @@ Create `server/.env`:
 ```env
 PORT=5000
 MONGO_URI=mongodb+srv://YOUR_USER:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/portfolio
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=https://portfolio-bbk1.onrender.com
 ```
 
 For the frontend, create `client/.env` if you deploy the API separately:
 
 ```env
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=https://portfolio-bbk1.onrender.com
 ```
 
 Never commit real credentials.
